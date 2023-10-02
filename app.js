@@ -43655,7 +43655,7 @@
         },
         { threshold: 0.5 }
       );
-      "GAME ON".split("").forEach((e) => {
+      "".split("").forEach((e) => {
         const t = document.createElement("span");
         (t.innerHTML = e), ay.append(t);
       }),
