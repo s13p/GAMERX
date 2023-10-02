@@ -17,11 +17,21 @@
       *, html {
         cursor: pointer;
       }
+      .logo {
+        height: 250px;
+        width: auto;
+      }
+      @media only screen and (max-width: 600px) {
+        .logo {
+        height: 100px;
+        width: auto;
+      }
+}
     </style>
   </head>
   <body>
     <div style="position: absolute; left:  0 ;" >
-      <img style="height: 250px; width: auto; z-index: 89798788979;" src="./logo.png" alt="">
+      <img class="logo" src="./logo.png" alt="">
     </div>
     <div class="loaderContainer">
       <span class="progress progress--number"></span>
