@@ -38326,7 +38326,7 @@
       }
       (xv.src = "./textures/video/reel.mp4"),
         (xv.volume = 0.15),
-        (Vv.src = "./textures/img/profile.jpg");
+        (Vv.src = "./textures/img/rotate.gif");
       const u_ = (e, t, n) => e * (1 - n) + t * n,
         p_ = (e) => (e * Math.PI) / 180,
         d_ = new (class {
